@@ -13,6 +13,7 @@ exports.calculate = function(req, res) {
   var operations = {
     'add':      function(a,b) { return +a + +b },
     'subtract': function(a,b) { return a - b },
+    'dividen' : function(a,b) { returm a/b};
   };
 
   // Determine the operation
